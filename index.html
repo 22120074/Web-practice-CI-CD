@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--Phần đầu-->
+        <title>Ananas của Nhật Duy</title> <!--Tên trang web-->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css"> <!--Cách chỉnh CSS bằng pp external, Link tới file CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Link tới file CSS của font-awesome-->
+        <script src="program.js"></script> <!--Cách chỉnh JS bằng pp external, Link tới file JS-->
+    </head>
+
+    <body> <!--Phần thân-->
+        <div class="user__extension">
+            <i class="fa fa-store"></i>            
+            <div class="user__extension__text">Tra Cứu Đơn Hàng</div>
+            <i class="fa fa-location-arrow"></i>            
+            <div class="user__extension__text">Tìm Cửa Hàng</div>
+            <i class="fa fa-heart"></i>
+            <div class="user__extension__text">Yêu Thích</div>
+            <i class="fa fa-user"></i>
+            <div class="user__extension__text">Đăng Nhập</div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="user__extension__text">Giỏ Hàng</div>
+        </div>
+        <!--Phần Menu-->
+        <div class="store__menu">
+            <ul>
+                <div>
+                    <a href="index.html">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/ananas_logo.svg" alt="logo-ananas" class="logo__ananas">
+                    </a>
+                </div>
+            </ul>
+            <ul class="menu__bar">
+                <div>
+                    <a href="Product.html" class="menu__item">Sản Phẩm</a>
+                </div>
+                <div>
+                    <a href="Nam-Product.html" class="menu__item">Nam</a>
+                </div>
+                <div>
+                    <a href="Nu-Product.html" class="menu__item">Nữ</a>
+                </div>
+                <div>
+                    <a href="Sale-off.html" class="menu__item">Sale Off</a>
+                </div>
+                <div>
+                    <a href="Guide.html">
+                        <img src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/DiscoverYOU.svg" alt="icon-hướng dẫn" class="logo-guide">
+                    </a>
+                </div>
+            </ul>
+            <ul>
+                <div class="search__box">
+                    <button class="search__box--button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="search__box--input" placeholder="Tìm kiếm">
+                </div>
+            </ul>
+        </div>
+        
+        <div class="text__banner">
+            <button class="arrow arrow__left" onclick="prevText()">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="text__display" id="textDisplay">
+                FREE SHIPPING VỚI HÓA ĐƠN TỪ 900K
+            </div>
+            <button class="arrow arrow-right" onclick="nextText()">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div>
+            <a href="day-slide.html">
+                <img src="https://ananas.vn/wp-content/uploads/BANNER-DAYSLIDE-FIXED-1.jpg" alt="day-slide-ananas" class="day-slide-ananas">
+        </div>
+
+        <div class="new__home__collection">
+            <div class="new__home__coll__menu back__and__black">
+                <a href="blackandblack.html">
+                    <img src="https://ananas.vn/wp-content/uploads/banner-phu%CC%A3_2m-600x320.jpg" alt="blackandblack" class="new__home__coll__img black__and__black--img">
+                </a>
+                <div class="header__text">
+                    BLACK & BLACK
+                </div>
+                <div class="content__text">
+                    Mặc dù được ứng dụng rất nhiều, nhưng sắc đen lúc nào cũng toát lên một vẻ huyền bí không nhàm chán 
+                </div>
+            </div>
+            <div class="new__home__coll__menu sale__of">
+                <a href="saleof.html">
+                    <img src="https://ananas.vn/wp-content/uploads/Banner_Sale-off-1.jpg" alt="Sale_of" class="new__home__coll__img sale__of--image">
+                </a>
+                <div class="header__text">
+                    OUTLET SALE
+                </div>
+                <div class="content__text">
+                    Danh mục các sản phẩm bán tại "giá tốt hơn" chỉ được bán kênh online - Online Only, chúng đã từng làm mưa làm gió một thời gian và hiện đang rơi vào tình trạng bể size, bể số
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

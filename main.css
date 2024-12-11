@@ -1,0 +1,133 @@
+/*Style chung*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dff2eb;
+}
+/*Hàng trên cùng của Trang Chủ8*/
+.user__extension {
+    display: flex;
+    background-color: #dff2eb;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px 0px;
+    gap: 8px;
+    padding: 0 50px;
+}
+.user__extension__text {
+    font-size: 14px;
+    color: black;
+}
+.user__extension__text:hover {
+    color: #ff6600;
+}
+/*Menu Trang Chủ*/
+a {
+    text-decoration: none;
+}
+.store__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B9E5E8;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+}
+.logo__ananas {
+    height: 50px;
+    width: auto;
+    padding: 0 80px;
+}
+.menu__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    gap: 30px;
+}
+.menu__item {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.menu-item:hover {
+    color: #ff6600; 
+    transition: color 0.3s ease, background-color 0.3s ease; 
+}
+.logo-guide {
+    height: 40px;
+    width: auto;;
+}
+/*CSS cho Searcg Box*/
+.search__box {
+    display: flex;                   
+    align-items: center;
+    padding: 0 80px;
+    border: 1px solid #ccc;        
+    border: none;
+}
+.search__box--input {
+    flex: 1;                          
+    border: none;                    
+    padding: 10px;                   
+    font-size: 16px;
+    border-radius: 0 10px 10px 0;          
+}
+
+.search__box--button {
+    background-color: #ffffff;       
+    border: none;                     
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;  
+}
+.search__box--button i {
+    font-size: 17px;                 
+    color: #333;        
+}
+/*CSS cho text banner*/
+.text__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #dff2eb;
+    
+}
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+}
+.text__display {
+    width: 600px;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: Arial;
+    color: #333;
+}
+/*CSS cho day slide ananas*/
+.day-slide-ananas {
+    width: 100%;
+    height: auto;
+}
+/*CSS cho new home cllection*/
+.new__home__collection {
+    display: flex;
+    justify-content: space-evenly   ;
+}
+.new__home__coll__menu {
+    flex-basis: 30%;
+}
+.new__home__coll__img {
+    width: 500px;
+    height: 300px;
+}
